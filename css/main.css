@@ -1,0 +1,162 @@
+
+
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/nunito-sans-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/nunito-sans-v12-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-sans-600 - latin_cyrillic */
+  @font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/nunito-sans-v12-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/nunito-sans-v12-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-sans-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/nunito-sans-v12-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/nunito-sans-v12-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-sans-800 - latin_cyrillic */
+  @font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/nunito-sans-v12-latin_cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/nunito-sans-v12-latin_cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  *{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+.container {
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-box {
+    padding: 23px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+.header-img {
+}
+.header-right-img {
+}
+.intro {
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.search-input {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 9px rgb(0 0 0 / 5%);
+            box-shadow: 0px 2px 9px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding: 18px 0px 18px 74px;
+    width: 480px;
+    border: transparent;
+    margin-bottom: 48px;
+}
+.region-select {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #111517;
+    padding: 18px 77px 18px 24px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 9px rgb(0 0 0 / 5%);
+            box-shadow: 0px 2px 9px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    border: transparent;
+    outline: none;
+}
+.intro-list {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.intro-item {
+    list-style: none;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+    margin-right: 74px;
+    margin-bottom: 67px;
+    padding-bottom: 46px;
+}
+.intro-item:nth-child(4){
+    margin-right: 0;
+}
+.intro-item:nth-child(8){
+    margin-right: 0;
+}
+.intro-img {
+}
+.intro-heading {
+    margin: 0;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111517;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin: bottom 16px;
+}
+.intro-box {
+    margin-left: 24px;
+}
+.intro-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111517;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.intro-text:nth-child(3) {
+    margin: 0;
+}
+.intro-text-strong {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111517;
+}
